@@ -1,16 +1,16 @@
 package com.davidnguyen.receipt_processor;
 
-import com.davidnguyen.receipt_processor.model.Item;
-import com.davidnguyen.receipt_processor.model.Receipt;
-import com.davidnguyen.receipt_processor.storage.ReceiptStorage;
-import com.davidnguyen.receipt_processor.service.ReceiptService;
+import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
+import com.davidnguyen.receipt_processor.model.Item;
+import com.davidnguyen.receipt_processor.model.Receipt;
+import com.davidnguyen.receipt_processor.service.ReceiptService;
+import com.davidnguyen.receipt_processor.storage.ReceiptStorage;
 
 class ReceiptServiceTest {
 
